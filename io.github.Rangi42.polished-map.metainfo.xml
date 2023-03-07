@@ -8,6 +8,7 @@
   <launchable type="desktop-id">io.github.Rangi42.polished-map.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LGPL-3.0</project_license>
+  <project_group>Polished Map</project_group>
   <description>
     <p>A map and tileset editor for pokecrystal, pokegold, pokeyellow, pokered, and hacks including Polished Crystal v2, Red++ v3, Orange, Prism, and many more.</p>
     <p>For projects that use 256–512 tiles and per-block attributes, including Polished Crystal v3, Red++ v4, Coral, Black and White 3: Genesis, and Ancient Ruby, use Polished Map++!</p>
