@@ -1,6 +1,6 @@
 app-id: io.github.Rangi42.polished-map
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: polishedmap
 finish-args:
@@ -36,14 +36,14 @@ modules:
     sources:
       - type: archive
         archive-type: tar-gzip
-        url: https://api.github.com/repos/Rangi42/polished-map/tarball/v4.7.1
-        sha256: d4369600f9d98f1d63ca5a425ee30ff87c0b61212f8801647995670e3b6af3dc
+        url: https://api.github.com/repos/Rangi42/polished-map/tarball/v2.7.1++
+        sha256: 0234bd0a57598eec0bf0bd541a24f17d6aebc1f0b87596f6d1d7bffd8694f08a
         x-checker-data:
-            type: json
-            url: https://api.github.com/repos/Rangi42/polished-map/releases/latest
-            version-query: .tag_name
-            url-query: .tarball_url
-            is-main-source: true
+          type: json
+          url: https://api.github.com/repos/Rangi42/polished-map/releases/latest
+          version-query: .tag_name
+          url-query: .tarball_url
+          is-main-source: true
       - type: file
         path: io.github.Rangi42.polished-map.png
       - type: file
